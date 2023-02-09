@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'FFAPlsKit_Example' do
+  pod 'FFAPlsKit', :path => '../'
+
+  target 'FFAPlsKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
