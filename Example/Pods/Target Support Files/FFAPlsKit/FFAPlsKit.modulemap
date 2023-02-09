@@ -1,0 +1,6 @@
+framework module FFAPlsKit {
+  umbrella header "FFAPlsKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

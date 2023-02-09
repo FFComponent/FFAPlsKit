@@ -1,0 +1,60 @@
+{
+  "name": "FFAPlsKit",
+  "version": "0.0.1",
+  "summary": "A short description of FFAPlsKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/FFComponent/FFAPlsKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "719382425@qq.com": "719382425@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/FFComponent/FFAPlsKit.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "dependencies": {
+    "AFNetworking": [
+      "~> 3.0"
+    ],
+    "MBProgressHUD": [
+      "~>0.9.2"
+    ],
+    "FMDB": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Others",
+      "source_files": "FFAPlsKit/Classes/Others/**/*",
+      "subspecs": [
+        {
+          "name": "APIs",
+          "source_files": "FFAPlsKit/Classes/Others/APIs/*"
+        },
+        {
+          "name": "configs",
+          "source_files": "FFAPlsKit/Classes/Others/configs/*"
+        },
+        {
+          "name": "mainView",
+          "source_files": "FFAPlsKit/Classes/Others/mainView/*"
+        },
+        {
+          "name": "reformerKeys",
+          "source_files": "FFAPlsKit/Classes/Others/reformerKeys/*"
+        },
+        {
+          "name": "tools",
+          "source_files": "FFAPlsKit/Classes/Others/tools/*"
+        }
+      ]
+    }
+  ]
+}

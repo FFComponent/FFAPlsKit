@@ -1,0 +1,77 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - FFAPlsKit (0.0.1):
+    - AFNetworking (~> 3.0)
+    - FFAPlsKit/Others (= 0.0.1)
+    - FMDB
+    - MBProgressHUD (~> 0.9.2)
+  - FFAPlsKit/Others (0.0.1):
+    - AFNetworking (~> 3.0)
+    - FFAPlsKit/Others/APIs (= 0.0.1)
+    - FFAPlsKit/Others/configs (= 0.0.1)
+    - FFAPlsKit/Others/mainView (= 0.0.1)
+    - FFAPlsKit/Others/reformerKeys (= 0.0.1)
+    - FFAPlsKit/Others/tools (= 0.0.1)
+    - FMDB
+    - MBProgressHUD (~> 0.9.2)
+  - FFAPlsKit/Others/APIs (0.0.1):
+    - AFNetworking (~> 3.0)
+    - FMDB
+    - MBProgressHUD (~> 0.9.2)
+  - FFAPlsKit/Others/configs (0.0.1):
+    - AFNetworking (~> 3.0)
+    - FMDB
+    - MBProgressHUD (~> 0.9.2)
+  - FFAPlsKit/Others/mainView (0.0.1):
+    - AFNetworking (~> 3.0)
+    - FMDB
+    - MBProgressHUD (~> 0.9.2)
+  - FFAPlsKit/Others/reformerKeys (0.0.1):
+    - AFNetworking (~> 3.0)
+    - FMDB
+    - MBProgressHUD (~> 0.9.2)
+  - FFAPlsKit/Others/tools (0.0.1):
+    - AFNetworking (~> 3.0)
+    - FMDB
+    - MBProgressHUD (~> 0.9.2)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - MBProgressHUD (0.9.2)
+
+DEPENDENCIES:
+  - FFAPlsKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - FMDB
+    - MBProgressHUD
+
+EXTERNAL SOURCES:
+  FFAPlsKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: cb604b1c2bded0871f5f61f5d53653739e841d6b
+  FFAPlsKit: 22dd0536ab63d4c42d6e7e1fb1994a3bc5a730cd
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+
+PODFILE CHECKSUM: 1d2e5ce2f24a455c25ebd259b5b13de7ffec8dfa
+
+COCOAPODS: 1.11.2
